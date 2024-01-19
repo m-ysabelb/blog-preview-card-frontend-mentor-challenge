@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4d04e;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.blog-preview-card-container {
+    background-color: #ffffff;
+    max-width: 400px;
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    outline: 2px solid #121212;
+    position: relative;
+    box-shadow: 8px 8px 1px 1px rgba(0, 0, 0.2);
+}
+
+/**#blog-preview-card-container-effect:hover {
+    max-width: 400px;
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    outline: 2px solid #121212;
+    position: relative;
+    box-shadow: 20px 20px 1px 1px rgba(0, 0, 0.2);
+} **/
+
+.container-effect {
+    box-shadow: 20px 20px 1px 1px rgba(0, 0, 0);
+} /** bookmark as of jan 19 4:54 pm**/
+
+#img-header {
+    width: 100%;
+    border-radius: 1rem;
+    display: block;
+}
+
+#tag {
+    background-color: #f4d04e;
+    width: min-content;
+    padding: 0.7rem;
+    margin-top: 1.5rem;
+    font-weight: 800;
+    border-radius: 0.5rem;
+    font-family: 'Figtree', sans-serif;
+}
+
+#published-date {
+    margin-top: 1rem;
+}
+
+#blog-title {
+    margin: 0.7rem 0 0.8rem;
+}
+
+#blog-title h1 a {
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 1;
+    text-decoration: none;
+    font-family: 'Figtree', sans-serif;
+}
+
+#blog-title a:hover {
+    color: #f4d04e;
+}
+
+#blog-text p {
+    color: #808080;
+    font-size: 1.02rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 16px;
+}
+
+/**
+.main-body-text, #profile-picture, #img-header {
+    margin-left: 20px;
+} **/
+
+.attribution {
+    margin-top: 8px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.author-box {
+    margin-top: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+#author-picture {
+    margin-left: 3px;
+    margin-right: -14px;
+}
+
+#author-name {
+    font-size: 62%;
+    font-weight: 800;
+    font-family: 'Figtree', sans-serif;
+}
+
+@media (max-width: 375px) {
+    #blog-title h1 a {
+        font-size: 1.25rem;
+    }
+
+}
