@@ -1,6 +1,6 @@
 # blog-preview-card-frontend-mentor-challenge
-Currently a WIP project, imitating the given design through the implemention HTML and CSS.
+My most recent attempt at working on an HTML and CSS challenge was in January 2024, where I implemented the provided design of the Frontend Mentor Challenge.
 
-I started this challenge last Jan 17 and I will upload my current progress (95% as I declare) this Jan 19 for documentation purposes.
+I began this challenge on January 17, 2024, and am now announcing its completion on March 11. Even though I wasn't entirely satisfied with the result, I made the decision to call it finished and focus on accepting and honing my coding skills for the next few more challenges.
 
-I am still unsatisfied of the "95%" so I will update this till I made the final output, which will be soon. Hopefully.
+In essence, I can still say that the final result looks nearly similar to the given example.
